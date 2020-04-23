@@ -2,7 +2,7 @@ const Clarifai = require('clarifai');
 
 //You must add your own API key here from Clarifai.
 const app = new Clarifai.App({
- apiKey: 'YOUR_API_KEY_HERE'
+ apiKey: '8c6ab69498464f4990911d3e241cb96e'
 });
 
 const handleApiCall = (req, res) => {
@@ -29,3 +29,6 @@ module.exports = {
   handleImage,
   handleApiCall
 }
+
+// https://samples.clarifai.com/demographics.jpg
+// https://samples.clarifai.com/face-det.jpg
